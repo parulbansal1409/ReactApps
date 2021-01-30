@@ -1,0 +1,49 @@
+.playArea {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.hangmanWrapper{
+  display: flex;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.backLink {
+  background: #efefef;
+  border: 1px solid #000;
+  border-radius: 3px;
+  padding: 2px;
+  font-size: 12px;
+  color: #000;
+  text-decoration: none;
+}
+
+.footerBUttons {
+  margin: 20px;
+  font-size: 24px;
+}
+
+.footerBUttons a {
+  margin: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  .wrapper {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .wrapper {
+    flex-direction: column;
+  }
+}

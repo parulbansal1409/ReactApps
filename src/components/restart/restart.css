@@ -1,0 +1,15 @@
+.restart {
+  padding: 4px 8px;
+  font-size: 12px;
+  height:60px;
+}
+.restart:before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background: url("./restartIcon.png") center center;
+  background-size: contain;
+  display: inline-block;
+  margin: 5px;
+  vertical-align: middle;
+}

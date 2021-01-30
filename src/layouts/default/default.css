@@ -1,0 +1,15 @@
+.main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #000;
+}
+
+header,
+section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

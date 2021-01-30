@@ -1,0 +1,38 @@
+.game-console {
+  display: grid;
+  grid-template-columns: repeat(13, 40px);
+  grid-gap: 8px;
+  text-align: center;
+  align-items: center;
+}
+.alphabetButton {
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  text-shadow: 1px 1px #2980b9;
+}
+
+.alphabetButton:disabled {
+  cursor: not-allowed;
+  text-decoration-line: line-through;
+  color:#cccccc;
+  text-shadow: none;
+}
+
+@media screen and (max-width: 768px) {
+  .game-console {
+    grid-template-columns: repeat(8, 40px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .game-console {
+    grid-template-columns: repeat(6, 40px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .game-console {
+    grid-template-columns: repeat(4, 40px);
+  }
+}
